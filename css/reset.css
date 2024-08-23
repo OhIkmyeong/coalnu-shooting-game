@@ -1,0 +1,26 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    display:flex;flex-flow:column nowrap;
+    justify-content:center; align-items:center;
+    gap:20px;
+    min-height:100vh;
+    background:#000;
+    color:#fff;
+}
+
+#highscore{
+    display:inline-block;
+    padding:3px 10px 6px;
+    background:#222;
+    border-radius:4px;
+    color:yellow;
+}
+
+#cv{
+    background:#333;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:100%; max-width:400px;
+    aspect-ratio:4/7;
+}
